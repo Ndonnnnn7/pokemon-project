@@ -97,7 +97,7 @@ export const CompareModal: React.FC<CompareModalProps> = ({
             </p>
           </div>
         ) : (
-          <div className="py-4 space-y-5 overflow-y-auto max-h-[65vh] custom-scrollbar">
+          <div className="py-4 px-1 sm:px-2 pr-3.5 sm:pr-4.5 space-y-5 overflow-y-auto max-h-[65vh] custom-scrollbar">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {pokemon1 && (
                 <div className="relative flex flex-col items-center p-4 rounded-3xl bg-[#BAE6FD] dark:bg-slate-800 border-[3px] border-black shadow-[4px_4px_0px_0px_#000] text-center overflow-hidden">
