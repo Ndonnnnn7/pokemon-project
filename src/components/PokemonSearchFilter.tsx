@@ -8,7 +8,6 @@ import {
   SlidersHorizontal,
   ArrowUpDown,
   RotateCcw,
-  Sparkles,
   Layers,
   LayoutGrid,
   StretchHorizontal,

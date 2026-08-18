@@ -2,7 +2,7 @@ import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { PokemonDetail } from '../types/pokemon';
 import { getPokemonImage } from '../services/pokemonApi';
-import { X, Swords, Plus, Sparkles, Shuffle } from 'lucide-react';
+import { X, Swords, Plus, Shuffle } from 'lucide-react';
 
 interface CompareDockProps {
   compareList: PokemonDetail[];
